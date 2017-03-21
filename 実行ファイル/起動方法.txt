@@ -1,7 +1,0 @@
-　Windows版の起動方法
-・ByeGomi.exeをダブルクリックで起動できます。
-
-　Android版の起動方法
-・Android 4.0.3以降
-・https://xinroom.net/mobile/apk-install/の手順に従ってAndroid実機に
-　インストールの方をお願いします。

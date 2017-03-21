@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayScene.cpp" />
+    <ClCompile Include="..\Classes\SelectScene.cpp" />
+    <ClCompile Include="..\Classes\MenuList.cpp" />
+    <ClCompile Include="..\Classes\Gomi.cpp" />
+    <ClCompile Include="..\Classes\DebugDrawNode.cpp" />
+    <ClCompile Include="..\Classes\GLESDebugDraw.cpp" />
+    <ClCompile Include="..\Classes\GomiSystem.cpp" />
+    <ClCompile Include="..\Classes\Background.cpp" />
+    <ClCompile Include="..\Classes\Sensor.cpp" />
+    <ClCompile Include="..\Classes\Crow.cpp" />
+    <ClCompile Include="..\Classes\TitleScene.cpp" />
+    <ClCompile Include="..\Classes\GameLayer.cpp" />
+    <ClCompile Include="..\Classes\Stage.cpp" />
+    <ClCompile Include="..\Classes\StartDialogLayer.cpp" />
+    <ClCompile Include="..\Classes\GameManager.cpp" />
+    <ClCompile Include="..\Classes\ResultDialog.cpp" />
+    <ClCompile Include="..\Classes\CountDown.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayScene.h" />
+    <ClInclude Include="..\Classes\SelectScene.h" />
+    <ClInclude Include="..\Classes\MenuList.h" />
+    <ClInclude Include="..\Classes\Gomi.h" />
+    <ClInclude Include="..\Classes\DebugDrawNode.h" />
+    <ClInclude Include="..\Classes\GLESDebugDraw.h" />
+    <ClInclude Include="..\Classes\GomiSystem.h" />
+    <ClInclude Include="..\Classes\Background.h" />
+    <ClInclude Include="..\Classes\Sensor.h" />
+    <ClInclude Include="..\Classes\QueryCallback.h" />
+    <ClInclude Include="..\Classes\Crow.h" />
+    <ClInclude Include="..\Classes\TitleScene.h" />
+    <ClInclude Include="..\Classes\GameLayer.h" />
+    <ClInclude Include="..\Classes\Stage.h" />
+    <ClInclude Include="..\Classes\StartDialogLayer.h" />
+    <ClInclude Include="..\Classes\GameManager.h" />
+    <ClInclude Include="..\Classes\Mission.h" />
+    <ClInclude Include="..\Classes\ResultDialog.h" />
+    <ClInclude Include="..\Classes\CountDown.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
